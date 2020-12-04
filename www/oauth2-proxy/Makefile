@@ -1,7 +1,8 @@
 # $FreeBSD$
 
 PORTNAME=	oauth2-proxy
-DISTVERSION=	v6.1.1
+PORTVERSION=	6.1.1
+DISTVERSIONPREFIX=	v
 CATEGORIES=	www
 
 MAINTAINER=	freebsd@rheinwolf.de
