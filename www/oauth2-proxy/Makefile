@@ -1,5 +1,5 @@
 PORTNAME=	oauth2-proxy
-PORTVERSION=	7.2.1
+PORTVERSION=	7.3.0
 DISTVERSIONPREFIX=	v
 CATEGORIES=	www
 
@@ -37,16 +37,16 @@ GH_TUPLE=	\
 		go-tomb:tomb:dd632973f1e7:go_tomb_tomb/vendor/gopkg.in/tomb.v1 \
 		go-yaml:yaml:9f266ea9e77c:go_yaml_yaml_1/vendor/gopkg.in/yaml.v3 \
 		go-yaml:yaml:v2.3.0:go_yaml_yaml/vendor/gopkg.in/yaml.v2 \
-		golang-jwt:jwt:v3.2.1:golang_jwt_jwt/vendor/github.com/golang-jwt/jwt \
+		golang-jwt:jwt:v3.2.2:golang_jwt_jwt/vendor/github.com/golang-jwt/jwt \
 		golang:appengine:v1.6.5:golang_appengine/vendor/google.golang.org/appengine \
-		golang:crypto:a769d52b0f97:golang_crypto/vendor/golang.org/x/crypto \
+		golang:crypto:86341886e292:golang_crypto/vendor/golang.org/x/crypto \
 		golang:groupcache:215e87163ea7:golang_groupcache/vendor/github.com/golang/groupcache \
-		golang:net:e18ecbb05110:golang_net/vendor/golang.org/x/net \
+		golang:net:69e39bad7dc2:golang_net/vendor/golang.org/x/net \
 		golang:oauth2:bf48bf16ab8d:golang_oauth2/vendor/golang.org/x/oauth2 \
 		golang:protobuf:v1.4.3:golang_protobuf/vendor/github.com/golang/protobuf \
 		golang:sync:09787c993a3a:golang_sync/vendor/golang.org/x/sync \
 		golang:sys:665e8c7367d1:golang_sys/vendor/golang.org/x/sys \
-		golang:text:v0.3.3:golang_text/vendor/golang.org/x/text \
+		golang:text:v0.3.7:golang_text/vendor/golang.org/x/text \
 		golang:xerrors:9bdfabe68543:golang_xerrors/vendor/golang.org/x/xerrors \
 		google:go-genproto:cb27e3aa2013:google_go_genproto/vendor/google.golang.org/genproto \
 		google:uuid:v1.2.0:google_uuid/vendor/github.com/google/uuid \
@@ -66,6 +66,7 @@ GH_TUPLE=	\
 		mitchellh:mapstructure:v1.1.2:mitchellh_mapstructure/vendor/github.com/mitchellh/mapstructure \
 		natefinch:lumberjack:v2.0.0:natefinch_lumberjack/vendor/gopkg.in/natefinch/lumberjack.v2 \
 		nxadm:tail:v1.4.4:nxadm_tail/vendor/github.com/nxadm/tail \
+		oauth2-proxy:mockoidc:e3afe97dec43:oauth2_proxy_mockoidc/vendor/github.com/oauth2-proxy/mockoidc \
 		oauth2-proxy:tools:56ffd7384404:oauth2_proxy_tools_reference_gen/vendor/github.com/oauth2-proxy/tools \
 		onsi:ginkgo:v1.14.1:onsi_ginkgo/vendor/github.com/onsi/ginkgo \
 		onsi:gomega:v1.10.2:onsi_gomega/vendor/github.com/onsi/gomega \
@@ -73,18 +74,18 @@ GH_TUPLE=	\
 		pelletier:go-toml:v1.2.0:pelletier_go_toml/vendor/github.com/pelletier/go-toml \
 		pierrec:lz4:v2.5.2:pierrec_lz4/vendor/github.com/pierrec/lz4 \
 		pmezard:go-difflib:v1.0.0:pmezard_go_difflib/vendor/github.com/pmezard/go-difflib \
-		prometheus:client_golang:v1.9.0:prometheus_client_golang/vendor/github.com/prometheus/client_golang \
+		prometheus:client_golang:v1.11.1:prometheus_client_golang/vendor/github.com/prometheus/client_golang \
 		prometheus:client_model:v0.2.0:prometheus_client_model/vendor/github.com/prometheus/client_model \
-		prometheus:common:v0.15.0:prometheus_common/vendor/github.com/prometheus/common \
-		prometheus:procfs:v0.2.0:prometheus_procfs/vendor/github.com/prometheus/procfs \
-		protocolbuffers:protobuf-go:v1.24.0:protocolbuffers_protobuf_go/vendor/google.golang.org/protobuf \
+		prometheus:common:v0.26.0:prometheus_common/vendor/github.com/prometheus/common \
+		prometheus:procfs:v0.6.0:prometheus_procfs/vendor/github.com/prometheus/procfs \
+		protocolbuffers:protobuf-go:v1.26.0-rc.1:protocolbuffers_protobuf_go/vendor/google.golang.org/protobuf \
 		spf13:afero:v1.1.2:spf13_afero/vendor/github.com/spf13/afero \
 		spf13:cast:v1.3.0:spf13_cast/vendor/github.com/spf13/cast \
 		spf13:jwalterweatherman:v1.0.0:spf13_jwalterweatherman/vendor/github.com/spf13/jwalterweatherman \
 		spf13:pflag:v1.0.5:spf13_pflag/vendor/github.com/spf13/pflag \
 		spf13:viper:v1.6.3:spf13_viper/vendor/github.com/spf13/viper \
-		square:go-jose:v2.5.1:square_go_jose/vendor/gopkg.in/square/go-jose.v2 \
-		stretchr:testify:v1.6.1:stretchr_testify/vendor/github.com/stretchr/testify \
+		square:go-jose:v2.6.0:square_go_jose/vendor/gopkg.in/square/go-jose.v2 \
+		stretchr:testify:v1.7.0:stretchr_testify/vendor/github.com/stretchr/testify \
 		subosito:gotenv:v1.2.0:subosito_gotenv/vendor/github.com/subosito/gotenv \
 		vmihailenco:msgpack:v4.3.11:vmihailenco_msgpack_v4/vendor/github.com/vmihailenco/msgpack/v4 \
 		vmihailenco:tagparser:v0.1.1:vmihailenco_tagparser/vendor/github.com/vmihailenco/tagparser \
