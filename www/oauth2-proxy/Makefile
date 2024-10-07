@@ -10,7 +10,7 @@ WWW=		https://github.com/oauth2-proxy/oauth2-proxy
 LICENSE=	MIT
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-USES=		go:modules
+USES=		go:modules,1.22
 
 USE_GITHUB=	yes
 GH_TUPLE=	\
