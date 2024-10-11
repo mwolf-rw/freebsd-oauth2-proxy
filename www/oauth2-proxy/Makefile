@@ -106,7 +106,7 @@ GH_TUPLE=	\
 		vmihailenco:tagparser:v2.0.0:vmihailenco_tagparser_v2/vendor/github.com/vmihailenco/tagparser/v2 \
 		yuin:gopher-lua:v1.1.1:yuin_gopher_lua/vendor/github.com/yuin/gopher-lua
 
-USE_RC_SUBR=	oauth2-proxy
+USE_RC_SUBR=	oauth2_proxy
 
 GO_BUILDFLAGS=	-v -ldflags="-s -X github.com/${PORTNAME}/${PORTNAME}/v7/pkg/version.VERSION=${PORTVERSION}"
 
